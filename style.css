@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.nunito{
+font-family: "Nunito", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+body{
+height: 100vh;
+width: 100%;
+background-image: url("cat.webp");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width:576px) {
+body {
+height: 100vh;
+width: 100%;
+background-image: url("cat_small.webp");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+}
+p.factBox {
+color: white;
+padding: 10px;
+border: 1px solid #f4c200;
+text-align: center;
+background: transparent;
+font-size: 2rem;
+}
+.factBox::selection {
+color: black;
+background-color: white;
+}
